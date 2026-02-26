@@ -993,9 +993,10 @@ GameObject:
   - component: {fileID: 1575574943}
   - component: {fileID: 1575574942}
   - component: {fileID: 1575574945}
+  - component: {fileID: 1575574946}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1130,6 +1131,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserPrefab: {fileID: 4333705518785384295, guid: 085c51c5c3b452b43a683bf0f5b2b009, type: 3}
   speed: 7
+--- !u!114 &1575574946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575574941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f037fcebc38de4f8a52635166d24c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 3
+  invincibleTime: 2
+  invincible: 0
+  killConsequence: 1
 --- !u!1 &2077188889
 GameObject:
   m_ObjectHideFlags: 0
