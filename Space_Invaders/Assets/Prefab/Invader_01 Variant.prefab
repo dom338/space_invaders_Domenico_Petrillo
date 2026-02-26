@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invader_01 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5748972860715661912, guid: 5e013f7310b47034196b055b9f508539, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8279012764533020929, guid: 5e013f7310b47034196b055b9f508539, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
